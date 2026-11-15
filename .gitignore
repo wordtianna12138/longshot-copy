@@ -1,0 +1,23 @@
+# Generated packages and test output
+/dist/
+/tests/results/
+node_modules/
+coverage/
+*.log
+
+# OS/editor files
+.DS_Store
+._*
+__MACOSX/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.npmrc

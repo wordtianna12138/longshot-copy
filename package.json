@@ -1,0 +1,19 @@
+{
+  "name": "longshot-copy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Development tools for the Longshot Copy Chrome extension",
+  "license": "MIT",
+  "author": "Mob",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/geometry.test.mjs",
+    "test:browser": "node tests/browser.cjs",
+    "package": "python3 tools/package-release.py"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
+  }
+}
